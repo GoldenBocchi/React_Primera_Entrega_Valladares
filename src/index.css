@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-end {
+  flex-shrink: 0; /* Previene que el carrito se reduzca y desaparezca */
+}
+
+.navbar-item {
+  justify-content: flex-end; /* Asegura que el carrito esté al final */
+}
+
+.navbar-end {
+  flex-shrink: 0; /* Evita que se colapse en pantallas pequeñas */
+}
+
+.navbar-burger {
+  margin-left: auto; /* Asegura que el botón hamburguesa no interfiera con otros elementos */
+}
+
